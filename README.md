@@ -6,7 +6,8 @@ Encriptación
 http://127.0.0.1:8080/api/encriptar/ruben
 
 ---------------Endpoints protegidos -----------
-POST: http://127.0.0.1:9000/login
+POST: http://127.0.0.1:8080/login/oauth2/code/client-app
+      http://127.0.0.1:9000/login
       Body - Form-data: Username: ruben.aquino
                         Password: contra.123
                         
